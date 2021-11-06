@@ -1,10 +1,10 @@
 
-<header>
-  <h1 class="container">
-    <span class="caption">LAHS Hack Club</span>
-    <span>GET</span>
-  </h1>
-</header>
+<script lang="ts">
+  import Header from "./_header.svelte";
+  import Footer from "./_footer.svelte";
+</script>
+
+<Header />
 <main class="container">
   <h2>A Web Presence for Clubs</h2>
   <p>Any Los Altos High School club can get a <b>branded web presence</b> courtesy of LAHS Hack Club. Get a <b>free lahs.club</b> domain for your website, which is easy and fast to remember. It's great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.</p>
@@ -31,53 +31,11 @@
   <br>
   <p class="cta"><a href="">Submit a Request ></a></p>
 </main>
-<footer>
-  <div class="container">
-    <div class="flex-smart flex-gap">
-      <div class="flex">
-        <h3>Club</h3>
-        <p><a href="https://lahs.club">Main Page</a></p>
-        <p><a href="https://github.com/LAHSHackClub">GitHub</a></p>
-        <p><a href="https://lahshackclub.slack.com/join/shared_invite/zt-9nz0ghg0-2HA~bRF4t7MwEPvLaTJlOQ#/shared-invite/email">Slack</a></p>
-      </div>
-      <div class="flex">
-        <h3>About</h3>
-        <p>By students, for students.</p>
-        <p>LAHS Hack Club &copy; 2021</p>
-        <p><a href="mailto:hack@lahs.club">hack@lahs.club</a></p>
-      </div>
-      <div class="flex"></div>
-    </div>
-  </div>
-</footer>
+<Footer />
 
 <style>
-  header, footer {
-    background: #34b;
-    color: #fff;
-    padding: 40px 0;
-  }
-  footer {
-    background: #238;
-  }
-  footer h3 {
-    margin: 0;
-  }
-  footer a {
-    color: #fff;
-  }
   a {
     text-decoration-color: #fffa;
-  }
-  h1 {
-    line-height: 1;
-  }
-  h1 span {
-    display: block;
-    font-size: 10rem;
-  }
-  h1 span.caption {
-    font-size: 3rem;
   }
   h2, h3 {
     margin-top: 15px;
