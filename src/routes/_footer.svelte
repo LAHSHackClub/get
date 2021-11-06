@@ -32,6 +32,7 @@
     color: #fff;
   }
   footer p {
+    font-weight: 300;
     margin: 5px 0;
   }
 </style>

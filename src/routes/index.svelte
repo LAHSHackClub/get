@@ -6,15 +6,15 @@
 
 <Header />
 <main class="container">
-  <h2>A Web Presence for Clubs</h2>
-  <p>Any Los Altos High School club can get a <b>branded web presence</b> courtesy of LAHS Hack Club. Get a <b>free lahs.club</b> domain for your website, which is easy and fast to remember. It's great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.</p>
+  <h2>Free Websites for Clubs</h2>
+  <p>Any Los Altos High School club can easily get a web presence courtesy of LAHS Hack Club. Get a <b>free lahs.club</b> domain, which you can have redirect to your club's website, Instagram, or another page. It's memorable and great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.</p>
   <br>
   <h2>New Flexible Options</h2>
-  <p>New to GET, we have options to meet your club where it's at.</p>
+  <p>New to GET, we have options to meet your club wherever you are at.</p>
   <div class="flex-smart cards">
     <div class="flex">
       <h3>Keep Your Site</h3>
-      <p>Keep your existing Google, Wix, or other site and get a <b>free lahs.club</b> domain as a fast shortcut.</p>
+      <p>Keep your existing Google, Wix, or other site and get a <b>free lahs.club domain</b> as a fast shortcut.</p>
     </div>
     <div class="flex">
       <h3>Make a New Site</h3>
@@ -22,14 +22,15 @@
     </div>
     <div class="flex">
       <h3>Custom</h3>
-      <p>Need more, or already have code to deploy? We can help! Requires dual club membership.</p>
+      <p>Need more, or already have code to deploy? We can help! Dual club membership required.</p>
     </div>
   </div>
   <br>
   <h2>Requirements</h2>
-  <p>To request a site or a domain, you must be the acting president of the club in question <b>and</b> must have your club advisor's approval. You agree that any information published on your club's site reflects the MVLA school district as a whole.</p>
+  <p>To request a site or a domain, you must be the acting president of the club in question <b>and</b> must have your club advisor's approval. You agree that any info published on your club's site reflects the MVLA school district as a whole.</p>
+  <p>For advanced or custom sites maintained by LAHS Hack Club, your club must have a member that is also an active member of LAHS Hack Club (dual membership). You can always join Hack Club at <a href="https://join.lahs.club" target="_blank">join.lahs.club</a>.</p>
   <br>
-  <p class="cta"><a href="">Submit a Request ></a></p>
+  <p class="cta"><a href="https://forms.gle/hCLL4qFCYzMcZtC29">Submit a Request ></a></p>
 </main>
 <Footer />
 
@@ -38,6 +39,7 @@
     text-decoration-color: #fffa;
   }
   h2, h3 {
+    font-weight: 500;
     margin-top: 15px;
     margin-bottom: 6px;
   }
@@ -45,7 +47,7 @@
     background-color: #34b;
     border-radius: 5px;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     max-width: fit-content;
     margin-top: 50px;
     margin-bottom: 15px;
@@ -56,13 +58,14 @@
   }
   p {
     font-size: 1rem;
+    font-weight: 300;
     margin: 0;
     margin-top: 5px;
   }
   .cta {
     background-color: #e38;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.2rem;
     margin: 50px 0;
     padding: 15px 20px;
@@ -74,7 +77,7 @@
   }
   .cta a {
     color: #fff;
-    padding: 25px 60px;
+    padding: 25px 30px;
   }
   .cards {
     column-gap: 20px;
