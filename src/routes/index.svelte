@@ -10,7 +10,7 @@
   <p>Any Los Altos High School club can get a <b>branded web presence</b> courtesy of LAHS Hack Club. Get a <b>free lahs.club</b> domain for your website, which is easy and fast to remember. It's great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.</p>
   <br>
   <h2>New Flexible Options</h2>
-  <p>New to GET, we have new options to meet your club where it's at.</p>
+  <p>New to GET, we have options to meet your club where it's at.</p>
   <div class="flex-smart cards">
     <div class="flex">
       <h3>Keep Your Site</h3>
