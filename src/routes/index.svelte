@@ -6,35 +6,70 @@
   </h1>
 </header>
 <main class="container">
-  <h2>A Web Presence for All Clubs</h2>
+  <h2>A Web Presence for Clubs</h2>
+  <p>Any Los Altos High School club can get a <b>branded web presence</b> courtesy of LAHS Hack Club. Get a <b>free lahs.club</b> domain for your website, which is easy and fast to remember. It's great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.</p>
   <br>
-  <p>Any Los Altos High School club can get a <b>branded web presence for free!</b> We sponsor a variety of options and support for every club, whether you have a website already or not. All of our options come with a <b>free lahs.club</b> domain, which is super easy and fast to remember.</p>
-  <br>
-  <h2>Flexible Options</h2>
-  <div class="flex-smart flex-gap">
+  <h2>New Flexible Options</h2>
+  <p>New to GET, we have new options to meet your club where it's at.</p>
+  <div class="flex-smart cards">
     <div class="flex">
       <h3>Keep Your Site</h3>
-      <p>Keep your existing Google, Wix, or other site and we'll give you a <b>free lahs.club</b> domain as a fast shortcut.</p>
+      <p>Keep your existing Google, Wix, or other site and get a <b>free lahs.club</b> domain as a fast shortcut.</p>
     </div>
     <div class="flex">
       <h3>Make a New Site</h3>
-      <p>Learn to make and manage a new site without code with help from one of our members!</p>
+      <p>Learn to make and manage a new site without any code, with help from one of our members!</p>
     </div>
     <div class="flex">
-      <h3>Advanced Site</h3>
+      <h3>Custom</h3>
       <p>Need more, or already have code to deploy? We can help! Requires dual club membership.</p>
     </div>
   </div>
+  <br>
+  <h2>Requirements</h2>
+  <p>To request a site or a domain, you must be the acting president of the club in question <b>and</b> must have your club advisor's approval. You agree that any information published on your club's site reflects the MVLA school district as a whole.</p>
+  <br>
   <p class="cta"><a href="">Submit a Request ></a></p>
 </main>
+<footer>
+  <div class="container">
+    <div class="flex-smart flex-gap">
+      <div class="flex">
+        <h3>Club</h3>
+        <p><a href="https://lahs.club">Main Page</a></p>
+        <p><a href="https://github.com/LAHSHackClub">GitHub</a></p>
+        <p><a href="https://lahshackclub.slack.com/join/shared_invite/zt-9nz0ghg0-2HA~bRF4t7MwEPvLaTJlOQ#/shared-invite/email">Slack</a></p>
+      </div>
+      <div class="flex">
+        <h3>About</h3>
+        <p>By students, for students.</p>
+        <p>LAHS Hack Club &copy; 2021</p>
+        <p><a href="mailto:hack@lahs.club">hack@lahs.club</a></p>
+      </div>
+      <div class="flex"></div>
+    </div>
+  </div>
+</footer>
 
 <style>
-  header {
-    background: #34a;
-    padding: 60px 0;
+  header, footer {
+    background: #34b;
+    color: #fff;
+    padding: 40px 0;
+  }
+  footer {
+    background: #238;
+  }
+  footer h3 {
+    margin: 0;
+  }
+  footer a {
+    color: #fff;
+  }
+  a {
+    text-decoration-color: #fffa;
   }
   h1 {
-    color: #fff;
     line-height: 1;
   }
   h1 span {
@@ -45,32 +80,34 @@
     font-size: 3rem;
   }
   h2, h3 {
-    margin-top: 25px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 6px;
   }
   h2 {
-    background-color: #34a;
+    background-color: #34b;
     border-radius: 5px;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     max-width: fit-content;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 15px;
     padding: 5px 20px;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin: 0;
+    margin-top: 5px;
   }
   .cta {
     background-color: #e38;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 1.8rem;
-    margin: 80px 0;
-    padding: 25px 60px;
+    font-size: 1.2rem;
+    margin: 50px 0;
+    padding: 15px 20px;
     width: fit-content;
     transition-duration: 0.2s;
   }
@@ -79,6 +116,19 @@
   }
   .cta a {
     color: #fff;
-    padding: 30px;
+    padding: 25px 60px;
+  }
+  .cards {
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 20px;
+  }
+  .cards h3 {
+    margin-top: 0;
+  }
+  .cards > * {
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 20px;
   }
 </style>
