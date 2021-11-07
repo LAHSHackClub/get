@@ -30,7 +30,7 @@
   <p>To request a site or a domain, you must be the acting president of the club in question <b>and</b> must have your club advisor's approval. You agree that any info published on your club's site reflects the MVLA school district as a whole.</p>
   <p>For advanced or custom sites maintained by LAHS Hack Club, your club must have a member that is also an active member of LAHS Hack Club (dual membership). You can always join Hack Club at <a href="https://join.lahs.club" target="_blank">join.lahs.club</a>.</p>
   <br>
-  <p class="cta"><a href="https://forms.gle/hCLL4qFCYzMcZtC29">Submit a Request ></a></p>
+  <p class="cta"><a href="https://forms.gle/hCLL4qFCYzMcZtC29">Join LAHS GET ></a></p>
 </main>
 <Footer />
 
@@ -38,7 +38,7 @@
   a {
     text-decoration-color: #fffa;
   }
-  h2, h3 {
+  h2, h3, h4 {
     font-weight: 500;
     margin-top: 15px;
     margin-bottom: 6px;
@@ -63,7 +63,7 @@
     margin-top: 5px;
   }
   .cta {
-    background-color: #e38;
+    border: 5px solid #f37;
     border-radius: 10px;
     font-weight: 500;
     font-size: 1.2rem;
@@ -73,22 +73,25 @@
     transition-duration: 0.2s;
   }
   .cta:hover {
-    box-shadow: #e38 0 0 20px;
+    background-color: #f37;
   }
   .cta a {
-    color: #fff;
+    color: #f37;
     padding: 25px 30px;
+  }
+  .cta:hover a {
+    color: #fff;
   }
   .cards {
     column-gap: 20px;
     row-gap: 20px;
     margin-top: 20px;
   }
-  .cards h3 {
+  .cards h3, .cards h4 {
     margin-top: 0;
   }
   .cards > * {
-    background-color: #eee;
+    border: 2px solid #aaf;
     border-radius: 5px;
     padding: 20px;
   }
