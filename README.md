@@ -1,20 +1,8 @@
-# create-svelte
+# LAHS Hack Club GET
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Any Los Altos High School club can easily get a web presence courtesy of LAHS Hack Club. Get a free lahs.club domain, which you can have redirect to your club's website, Instagram, or another page. It's memorable and great for promoting on social media or on posters! We sponsor a variety of options and support for every club, whether you have a website already or not.
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+This repository contains the frontend code, built in SvelteKit (Node deployment).
 
 ## Developing
 
@@ -27,12 +15,18 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+## Building (Local)
 
 ```bash
 npm run build
+node ./build
+```
+
+## Building (Docker)
+
+```bash
+docker build -t get .
+docker run -p 3000:3000 -d get
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
