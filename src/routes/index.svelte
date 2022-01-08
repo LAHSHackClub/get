@@ -31,6 +31,7 @@
   <p>For advanced or custom sites maintained by LAHS Hack Club, your club must have a member that is also an active member of LAHS Hack Club (dual membership). You can always join Hack Club at <a href="https://join.lahs.club" target="_blank">join.lahs.club</a>.</p>
   <br>
   <p class="cta"><a href="https://forms.gle/hCLL4qFCYzMcZtC29">Join LAHS GET ></a></p>
+  <p class="help"><a href="/help">Need more help? Use this form.</a></p>
 </main>
 <Footer />
 
@@ -68,6 +69,7 @@
     font-weight: 500;
     font-size: 1.2rem;
     margin: 50px 0;
+    margin-bottom: 0;
     padding: 15px 20px;
     width: fit-content;
     transition-duration: 0.2s;
@@ -81,6 +83,17 @@
   }
   .cta:hover a {
     color: #fff;
+  }
+  .help {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: max-content;
+  }
+  .help:hover a {
+    color: #f37;
   }
   .cards {
     column-gap: 20px;

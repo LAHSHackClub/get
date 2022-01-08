@@ -1,17 +1,22 @@
 
 <header>
+  <a href="/">
   <h1 class="container">
     <span class="caption">LAHS Hack Club</span>
     <span>GET</span>
   </h1>
+  </a>
 </header>
 
 <style>
   header {
     background: #34b;
-    color: #fff;
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
   }
   h1 {
     line-height: 1;
